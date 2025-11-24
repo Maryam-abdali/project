@@ -83,7 +83,7 @@ display: flex;
   
 }
 
-.locationBox, .hoursBox {
+.locationBox, .hoursBox, .linksbox {
     background-color: #efebe0; 
     border-radius: 20px;
     padding: 20px;
@@ -121,4 +121,26 @@ p {
     color: #806b63; 
     font-weight: bold;
   font-size: 18px;
+}
+
+.linksbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.linksbox a {
+    margin: 0 10px;
+}
+
+.linksbox img {
+    width: 50px; 
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.linksbox img:hover {
+    transform: scale(1.1);
 }
